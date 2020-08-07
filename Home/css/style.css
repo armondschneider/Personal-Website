@@ -1,0 +1,22 @@
+html, body {
+    padding: 4em;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #FFF7F0;
+}
+
+@font-face {
+    font-family: "MonumentExtended-Regular";
+    src: url("monumentextended-regular-webfont.woff");
+}
+
+.logo-large{
+    font-family: "MonumentExtended-Regular";
+    font-size: 100px;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+    position: absolute;
+}
+
