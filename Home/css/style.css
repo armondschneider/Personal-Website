@@ -11,12 +11,43 @@ html, body {
     src: url("monumentextended-regular-webfont.woff");
 }
 
-.logo-large{
+p {
     font-family: "MonumentExtended-Regular";
-    font-size: 100px;
+    font-size: 52px;
     font-style: normal;
     font-weight: normal;
+    padding-top: 18%;
+    line-height: 52px;
     color: #000000;
+}
+
+.smiley-sticker-img {
     position: absolute;
+    width: 194px;
+    height: 194px;
+    left: 40px;
+    top: 318.71px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+    transform: rotate(-16.38deg);
+}
+
+.german-flag-sticker-img {
+    position: absolute;
+    width: 224px;
+    height: 139px;
+    left: 420.1px;
+    top: 169px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+    transform: rotate(12.51deg);
+}
+
+.design-sticker-img {
+    position: absolute;
+    width: 409px;
+    height: 409px;
+    left: 120px;
+    top: 140px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+    transform: rotate(-18.54deg);
 }
 
