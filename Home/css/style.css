@@ -4,11 +4,32 @@ html, body {
     width: 80%;
     margin: 0 auto;
     background-color: #FFF7F0;
+    cursor: none;
 }
 
 @font-face {
     font-family: "MonumentExtended-Regular";
     src: url("monumentextended-regular-webfont.woff");
+}
+
+.cursor {
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: all 0.3s ease;
+    transition-property: background, transform;
+    transform-origin: 100% 100%;
+    z-index: 2;
+    /* backdrop-filter: invert(70%); */
+}
+
+.link-grow {
+    transform: scale(2);
+    background: black;
 }
 
 p {
@@ -41,7 +62,7 @@ p {
     transform: rotate(12.51deg);
 }
 
-.design-sticker-img {
+.designStickerImg {
     position: absolute;
     width: 409px;
     height: 409px;
@@ -49,5 +70,7 @@ p {
     top: 140px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
     transform: rotate(-18.54deg);
+    /* padding applied so cursor animates right on sticker not beforehand */
+    padding: -35rem;
 }
 
