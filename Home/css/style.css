@@ -12,6 +12,19 @@ html, body {
     src: url("monumentextended-regular-webfont.woff");
 }
 
+span.color1, span.color2, span.color3 {
+    font-size: 110px;
+    font-weight: bold;
+    transition: color 3s;
+    transition-delay: 1s;
+    font-family: "MonumentExtended-Regular";
+}
+
+span.color1:hover { color: #9a031e; transition: color 0s; } 
+span.color2:hover { color: #3d348b; transition: color 0s; } 
+span.color3:hover { color: #ef798a; transition: color 0s; } 
+span.color1, span.color2, span.color3 { color: black;}
+
 .cursor {
     width: 3rem;
     height: 3rem;
@@ -32,7 +45,7 @@ html, body {
     background: #FF0000;
 }
 
-p {
+/* p {
     font-family: "MonumentExtended-Regular";
     font-size: 52px;
     font-style: normal;
@@ -40,7 +53,7 @@ p {
     padding-top: 18%;
     line-height: 52px;
     color: #000000;
-}
+} */
 
 .smiley-sticker-img {
     position: absolute;
