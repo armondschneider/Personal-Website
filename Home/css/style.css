@@ -20,6 +20,7 @@ span.color1, span.color2, span.color3 {
     font-family: "MonumentExtended-Regular";
 }
 
+/* Change text color when hover */
 span.color1:hover { color: #9a031e; transition: color 0s; } 
 span.color2:hover { color: #3d348b; transition: color 0s; } 
 span.color3:hover { color: #ef798a; transition: color 0s; } 
@@ -44,16 +45,6 @@ span.color1, span.color2, span.color3 { color: black;}
     transform: scale(2);
     background: #FF0000;
 }
-
-/* p {
-    font-family: "MonumentExtended-Regular";
-    font-size: 52px;
-    font-style: normal;
-    font-weight: normal;
-    padding-top: 18%;
-    line-height: 52px;
-    color: #000000;
-} */
 
 .smiley-sticker-img {
     position: absolute;
@@ -95,4 +86,14 @@ span.color1, span.color2, span.color3 { color: black;}
     font-size: 18px;
     word-spacing: normal;
     text-align: right;
+    align-items: center;
+
+}
+
+.navLogo {
+    left: 100px;
+    top: 71px;
+    text-align: left;
+    font-family: "MonumentExtended-Regular";
+    font-size: 36px;
 }
