@@ -1,6 +1,6 @@
 let mouseCursor = document.querySelector(".cursor");
 let designStickerImg = document.querySelectorAll(".designStickerImg")
-let navBar = document.querySelectorAll(".navbar")
+let navLinks = document.querySelectorAll(".navLinks")
 
 window.addEventListener('mousemove', cursor);
 
@@ -18,7 +18,7 @@ designStickerImg.forEach(link =>{
     });
 });
 
-navBar.forEach(link =>{
+navLinks.forEach(link =>{
     link.addEventListener('mouseover', () => {
         mouseCursor.classList.add("link-grow");
     });
