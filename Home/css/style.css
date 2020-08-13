@@ -11,19 +11,28 @@ html, body {
     src: url("monumentextended-regular-webfont.woff");
 }
 
-span.color1, span.color2, span.color3 {
-    font-size: 110px;
+span.color1, span.color2, span.color3, span.color4 {
+    font-size: 120px;
     font-weight: bold;
     transition: color 3s;
     transition-delay: 1s;
     font-family: "MonumentExtended-Regular";
 }
 
+.mondoLogo {
+    position: absolute;
+    align-items: center;
+    z-index: -1;
+    padding-left: -100px;
+    padding-top: 150px;
+}
+
 /* Change text color when hover */
-span.color1:hover { color: #9a031e; transition: color 0s; } 
-span.color2:hover { color: #3d348b; transition: color 0s; } 
-span.color3:hover { color: #ef798a; transition: color 0s; } 
-span.color1, span.color2, span.color3 { color: black;}
+span.color1:hover { color: #06d6a0; transition: color 0s; } 
+span.color2:hover { color: #ef476f; transition: color 0s; } 
+span.color3:hover { color: #1b9aaa; transition: color 0s; } 
+span.color4:hover { color: #77567a; transition: color 0s; } 
+span.color1, span.color2, span.color3, span.color4 { color: black;}
 
 .cursor {
     width: 3rem;
@@ -42,38 +51,6 @@ span.color1, span.color2, span.color3 { color: black;}
 .link-grow {
     transform: scale(2);
     background: #FF0000;
-}
-
-.smiley-sticker-img {
-    position: absolute;
-    width: relative 100%;
-    height: 194px;
-    left: 40px;
-    top: 318.71px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
-    transform: rotate(-16.38deg);
-}
-
-.german-flag-sticker-img {
-    position: absolute;
-    width: 224px;
-    height: 139px;
-    left: 420.1px;
-    top: 169px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
-    transform: rotate(12.51deg);
-}
-
-.designStickerImg {
-    position: absolute;
-    width: 409px;
-    height: 409px;
-    left: 120px;
-    top: 140px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
-    transform: rotate(-18.54deg);
-    /* padding applied so cursor animates right on sticker not beforehand */
-    padding: -35rem;
 }
 
 /* about.html */
@@ -109,9 +86,14 @@ nav li{
     font-family: "MonumentExtended-Regular";
 }
 
-nav a{
-    color: black;
+.navLinks a {
     text-decoration: none;
+    color: black;
+}
+
+
+.navLogo span {
+    color: black;
 }
 
 .aboutBody {
